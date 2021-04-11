@@ -1,0 +1,141 @@
+html {
+  height: 100%;
+}
+body * {
+  margin-top: 1.2em;
+}
+body {
+  font-family: open sans, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  margin: 0;
+  padding: 0;
+  color: #364147;
+  background-color: #fff;
+}
+main {
+  padding: 20px;
+}
+.page-container {
+  display: grid;
+  grid-gap: 5em;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: white;
+  margin: auto 40px;
+}
+.page-items{
+  border: 1px solid gray;
+  border-top : 0px;
+  border-radius: 7px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+  box-shadow:  0 6px 4px -4px rgb(0,0,0,0.7);
+}
+.name{
+  font-size: 25px;
+}
+.username{
+  font-style: italic;
+  font-size: 15px;
+  position: relative;
+  top: -20px;
+}
+.first-letter{
+  font-size: 40px;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  background: #C0C0C0;
+  margin: auto; 
+}
+
+.first-letter > p {
+  position: relative;
+  top:16px;
+}
+.website{
+  font-size: 18px;
+  color: rgb(40, 106, 119);
+}
+.user-detail{
+  font-size: 20px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71, 71, 71);
+  background: white;
+  width: 35%;
+  margin: auto;
+}
+.address-list{
+  line-height: 5px;
+}
+.user-button{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto auto;
+
+}
+.header{
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  background-color: rgb(220,220,220)
+}
+.home-link{
+  position: relative;
+  top:20px;
+  left:60px;
+  color: white;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  color: gray;
+  padding: 20px 0 20px 0;
+  background-color: gainsboro;
+}
+/* .spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.spinner-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+} */
+/* .spinner-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #cef;
+  border-color: #cef transparent #cef transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+} */
+/* @keyframes spinner-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
+/* button */
+/* .card-items1> p:nth-child(5){
+  position: relative;
+  top:-1.1em;
+} */
+
+
+
+
+
+
+
+
+
